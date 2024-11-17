@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "path": "videos/1.mp4",
+    "likes": "150k",
+    "comments": "20",
+    "shares": "50",
+    "username": "bholu6378",
+    "userAvatar": "https://i.pravatar.cc/150?img=1",
+    "caption": "This is my first video!"
+  },
+  {
+    "id": 2,
+    "path": "videos/2.mp4",
+    "likes": "300K",
+    "comments": "45",
+    "shares": "75",
+    "username": "tech_guru99",
+    "userAvatar": "https://i.pravatar.cc/150?img=2",
+    "caption": "This is my first video!"
+  },
+  {
+    "id": 3,
+    "path": "videos/3.mp4",
+    "likes": "500K",
+    "comments": "60",
+    "shares": "120",
+    "username": "fitness_freak21",
+    "userAvatar": "https://i.pravatar.cc/150?img=3",
+    "caption": "This is my first video!"
+  },
+  {
+    "id": 4,
+    "path": "videos/4.mp4",
+    "likes": "200K",
+    "comments": "30",
+    "shares": "40",
+    "username": "travel_lover88",
+    "userAvatar": "https://i.pravatar.cc/150?img=4",
+    "caption": "This is my first video!"
+  }
+]

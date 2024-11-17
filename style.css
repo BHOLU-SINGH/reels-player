@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.reels-section {
+  position: relative;
+  width: 350px;
+  height: 600px;
+  border: 1px solid #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  overflow-y: auto;
+  scroll-snap-type: y mandatory;
+}
+.reels-section::-webkit-scrollbar {
+  width: 0;
+}
+.reels-section .reels {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.reels-section .reels video {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  object-fit: cover;
+  scroll-snap-align: start;
+}
+.reels-section .reels .reels-data {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.reels-section .reels .reels-data .vertical {
+  position: absolute;
+  width: 50px;
+  height: auto;
+  right: 0;
+  bottom: 5px;
+}
+.reels-section .reels .reels-data .vertical div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 1rem;
+  margin-bottom: 5px;
+  color: #fff;
+}
+.reels-section .reels .reels-data .vertical div i {
+  font-size: 1.3rem;
+  color: #fff;
+}
+.reels-section .reels .reels-data .vertical div span {
+  font-size: 0.75rem;
+}
+.reels-section .reels .reels-data .vertical div img {
+  width: 40px;
+  height: 40px;
+  border: 3px solid #fff;
+  border-radius: 5px;
+}
+.reels-section .reels .reels-data .horizontal {
+  position: absolute;
+  width: 80%;
+  height: auto;
+  bottom: 0;
+  left: 5px;
+}
+.reels-section .reels .reels-data .horizontal .username {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+.reels-section .reels .reels-data .horizontal .username .imgBox {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  margin-right: 0.7rem;
+}
+.reels-section .reels .reels-data .horizontal .username .imgBox img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  padding: 1px;
+}
+.reels-section .reels .reels-data .horizontal .username span {
+  font-size: 1rem;
+  color: #fff;
+  margin-right: 0.5rem;
+}
+.reels-section .reels .reels-data .horizontal .username .btn {
+  border: none;
+  outline: none;
+  padding: 5px 20px;
+  border-radius: 20px;
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  letter-spacing: 0.3px;
+}
+.reels-section .reels .reels-data .horizontal .caption {
+  width: 100%;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  text-overflow: ellipsis;
+  margin-bottom: 0.5rem;
+  color: #fff;
+  font-size: 0.9rem;
+}
+.reels-section .reels .reels-data .horizontal .audio {
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  width: fit-content;
+  padding: 0 10px;
+  margin-bottom: 0.5rem;
+  font-size: 0.75rem;
+}
